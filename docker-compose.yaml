@@ -1,0 +1,7 @@
+services:
+  ms-curso-reto3:
+    image: cursodockermarco.azurecr.io/nginx-personalizado:latest
+    container_name: ms-curso-reto3
+    ports:
+      - "80:80"
+    restart: always
